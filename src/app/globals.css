@@ -14,8 +14,94 @@
   }
 }
 
+/* Dark Charcoal Theme with Enhanced Textured Conversation Boxes */
+
+/* Body Styling */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1b1b1d, #262626); /* Deep charcoal gradient */
+  color: #d3d3d4; /* Light gray text for contrast */
+}
+
+/* Chat Container */
+div {
+  max-width: 600px;
+  width: 100%;
+  background-color: #333333; /* Dark gray for container */
+  border: 1px solid #444444; /* Slightly darker border */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5); /* Deep shadow for container depth */
+}
+
+/* Message Styling with Textured Background */
+.whitespace-pre-wrap {
+  margin: 12px 0;
+  padding: 14px 18px;
+  border-radius: 8px;
+  line-height: 1.5;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for structure */
+  box-shadow: inset 0px 2px 4px rgba(255, 255, 255, 0.08); /* Light inner shadow for texture */
+}
+
+/* User Message (Subtle Gradient and Shadow) */
+.user-message {
+  background: linear-gradient(135deg, #444444, #555555); /* Darker gradient for user message */
+  color: #d3d3d4; /* Light gray text */
+  align-self: flex-end;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Soft shadow for a lifted look */
+}
+
+/* AI Response (Lighter Gray with Subtle Tint) */
+.ai-response {
+  background: linear-gradient(135deg, #5c5c5c, #6a6a6a); /* Soft gray with a hint of blue for AI response */
+  color: #e8e8e8; /* Almost white text for readability */
+  align-self: flex-start;
+  border: 1px solid #6a6a6a; /* Slightly darker border */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Light shadow for lifted look */
+}
+
+/* Input Field Styling */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #555555; /* Darker gray border */
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #444444; /* Dark gray input field */
+  color: #d3d3d4; /* Light gray text */
+  margin-top: 20px;
+  box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.08); /* Inner shadow for texture */
+}
+
+input::placeholder {
+  color: #999999; /* Muted gray placeholder */
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a6a6a; /* Slightly lighter border on focus */
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.limitations {
+  margin-top: 1em;
+}
+
+.capabilities {
+  margin-top: 1em;
 }

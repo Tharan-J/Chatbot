@@ -1,0 +1,45 @@
+/* Chat.css */
+.chat-container {
+    max-width: 600px; /* Adjust the width of the chat container */
+    margin: auto; /* Center the chat container */
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc; /* Optional: border around the container */
+    border-radius: 8px; /* Optional: rounded corners */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.message {
+    margin: 10px 0; /* Spacing between messages */
+}
+
+.user-message {
+    font-weight: bold; /* Bold user messages */
+    color: #007bff; /* Optional: user message color */
+}
+
+.ai-response {
+    background-color: #e9ecef; /* Light background for AI responses */
+    padding: 10px; /* Padding around the AI response */
+    border-radius: 5px; /* Rounded corners for AI responses */
+}
+
+.ai-message {
+    margin-top: 5px; /* Spacing for the AI message content */
+}
+
+.capabilities, .limitations {
+    margin: 10px 0 5px; /* Spacing for section headings */
+}
+
+.highlight {
+    background-color: yellow; /* Highlight color for important text */
+    font-weight: bold; /* Make it bold */
+}
+
+.chat-input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding inside input */
+    border-radius: 5px; /* Rounded corners for input */
+    border: 1px solid #ccc; /* Border for input */
+    margin-top: 10px; /* Spacing above input */
+}
